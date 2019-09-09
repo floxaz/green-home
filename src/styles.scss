@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+$bg-color: #33c435;
+$body-bg: #ededed;
+
+// Variable Overwrites
+// $theme-colors: (
+//     "primary": $bg-color
+// );
+
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+// Bootstrap Sass files
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.nav-link {
+    color: #d3e8d9 !important;
+}
+
+.navbar-toggler {
+    color: #d3e8d9 !important;
+    border-color: #d3e8d9 !important;
+    outline: none !important;
+}
