@@ -8,9 +8,11 @@ $body-bg: #ededed;
 // );
 
 
-body {
+body,
+h1 {
     font-family: 'Playfair Display', serif;
 }
+
 
 // Bootstrap Sass files
 @import "node_modules/bootstrap/scss/bootstrap";
